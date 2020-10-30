@@ -1,0 +1,210 @@
+/* ARQUIVO CSS DE GERENCIAMENTO DE ALINHAMENTOS E MARGENS */
+
+/* alinhamento de itens lado a lado */
+.fl-lf{
+  float: left;
+}
+.fl-rt{
+  float: right;
+}
+
+/* texto */
+.ft-lf{
+  text-align: left;
+}
+.ft-rt{
+  text-align: right;
+}
+.ft-ct{
+  text-align: center;
+}
+
+/* texto do checkbox e radio */
+.ft-cb,.ft-rd{
+  display: inline;
+  vertical-align: 2px;
+}
+
+/* posições */
+/* absoluta */
+.ps-abs{
+  position: absolute;
+}
+/* fixado */
+.ps-fx{
+  position: fixed;
+}
+/* relativo */
+.ps-rl{
+  position: relative;
+}
+
+/* margens */
+.mg-up-mc{
+  margin-top: 5px;
+}
+.mg-up-md{
+  margin-top: 10px;
+}
+.mg-up-bg{
+  margin-top: 15px;
+}
+.mg-up-lg{
+  margin-top: 20px;
+}
+.mg-dn-mc{
+  margin-bottom: 5px;
+}
+.mg-dn-md{
+  margin-bottom: 10px;
+}
+.mg-dn-bg{
+  margin-bottom: 15px;
+}
+.mg-dn-lg{
+  margin-bottom: 20px;
+}
+.mg-lf-mc{
+  margin-left: 5px;
+}
+.mg-lf-md{
+  margin-left: 10px;
+}
+.mg-lf-bg{
+  margin-left: 15px;
+}
+.mg-lf-lg{
+  margin-left: 20px;
+}
+.mg-rt-mc{
+  margin-right: 5px;
+}
+.mg-rt-md{
+  margin-right: 10px;
+}
+.mg-rt-bg{
+  margin-right: 15px;
+}
+.mg-rt-lg{
+  margin-right: 20px;
+}
+
+/* preenchimento */
+.pd-up-ep{
+  padding-top: 0px !important;
+}
+.pd-up-mc{
+  padding-top: 5px;
+}
+.pd-up-md{
+  padding-top: 10px;
+}
+.pd-up-bg{
+  padding-top: 15px;
+}
+.pd-up-lg{
+  padding-top: 20px;
+}
+.pd-dn-ep{
+  padding-bottom: 0px !important;
+}
+.pd-dn-mc{
+  padding-bottom: 5px;
+}
+.pd-dn-md{
+  padding-bottom: 10px;
+}
+.pd-dn-bg{
+  padding-bottom: 15px;
+}
+.pd-dn-lg{
+  padding-bottom: 20px;
+}
+.pd-lf-ep{
+  padding-left: 0px !important;
+}
+.pd-lf-mc{
+  padding-left: 5px;
+}
+.pd-lf-md{
+  padding-left: 10px;
+}
+.pd-lf-bg{
+  padding-left: 15px;
+}
+.pd-lf-lg{
+  padding-left: 20px;
+}
+.pd-rt-ep{
+  padding-right: 0px !important;
+}
+.pd-rt-mc{
+  padding-right: 5px;
+}
+.pd-rt-md{
+  padding-right: 10px;
+}
+.pd-rt-bg{
+  padding-right: 15px;
+}
+.pd-rt-lg{
+  padding-right: 20px;
+}
+
+/* margem de texto (parágrafo)*/
+.pg-ep{
+  text-indent: 0px !important;
+}
+.pg-mc{
+  text-indent: 5px;
+}
+.pg-md{
+  text-indent: 10px;
+}
+.pg-bg{
+  text-indent: 15px;
+}
+.pg-lg{
+  text-indent: 20px;
+}
+
+/* margem de texto (posicionamento altura) */
+.mg-ft-mc{
+  line-height: 10px;
+}
+.mg-ft-lt{
+  line-height: 15px;
+}
+.mg-ft-md{
+  line-height: 20px;
+}
+.mg-ft-bg{
+  line-height: 25px;
+}
+.mg-ft-lg{
+  line-height: 30px;
+}
+
+/* alinhamento do box de login */
+#container-login,#container-reset,#container-first{
+  width: 400px;
+  height: 230px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -115px;
+  margin-left: -200px;
+}
+
+/* alinhamento do box de mensagens */
+#msg-popup{
+  max-width: 20%;
+  padding-left: 62px;
+  display: none;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  font-size: 0.8em;
+  line-height: 15px;
+  box-shadow: -1px 1px 10px rgba(0,0,0,0.5);
+}

@@ -1,0 +1,186 @@
+/* ARQUIVO CSS DE GERENCIAMENTO DE ESTILOS */
+
+/* fonte negrito */
+.st-ft-bl{
+  font-weight: bold;
+}
+
+/* fonte itálico */
+.st-ft-il{
+  font-style: italic;
+}
+
+/* cursor (pointer) */
+.cs-pt{
+  cursor: pointer;
+}
+
+/* display visivel (block) */
+.dp-block{
+  display: block;
+}
+/* display visivel (table) */
+.dp-table{
+  display: table;
+}
+/* display (invisivel) */
+.dp-none{
+  display: none;
+}
+/* display (table-cell) */
+.dp-tb-ce{
+  display: table-cell;
+}
+
+/* borda (radius) */
+.bd-rd-05{
+  border-radius: 20%;
+  -o-border-radius: 20%;
+  -ms-border-radius: 20%;
+  -moz-border-radius: 20%;
+  -webkit-border-radius: 20%;
+}
+.bd-rd-04{
+  border-radius: 25%;
+  -o-border-radius: 25%;
+  -ms-border-radius: 25%;
+  -moz-border-radius: 25%;
+  -webkit-border-radius: 25%;
+}
+.bd-rd-03{
+  border-radius: 33%;
+  -o-border-radius: 33%;
+  -ms-border-radius: 33%;
+  -moz-border-radius: 33%;
+  -webkit-border-radius: 33%;
+}
+.bd-rd-02{
+  border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+.bd-rd-01{
+  border-radius: 100%;
+  -o-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+}
+
+/* Estilo de borda */
+/* Solida */
+.bd-up-sl{
+  border-top-style: solid;
+}
+.bd-dn-sl{
+  border-bottom-style: solid;
+}
+.bd-lf-sl{
+  border-left-style: solid;
+}
+.bd-rt-sl{
+  border-right-style: solid;
+}
+
+/* ESTILOS ESPECÍFICOS */
+.submenu{
+  margin-left: -10px;
+  top: 49px;
+}
+
+.submenu-adm{
+  width: 655px;
+  height: 0px;
+  transition: 0.3s;
+}
+
+.submenu-finance{
+  width: 370px;
+  height: 0px;
+  transition: 0.3s;
+}
+
+.submenu-accounting{
+  width: 292px;
+  height: 0px;
+  transition: 0.3s;
+}
+
+.submenu-legal{
+  width: 146px;
+  height: 0px;
+  transition: 0.3s;
+}
+
+.link-dash-company{
+  background: #394264 url('../image/icon/other/arrow-open-fixed.gif') no-repeat 7px 7px;
+  text-indent: 32px;
+}
+
+.data-dash-company{
+  height: 0px;
+  text-indent: 0px;
+  transition: 0.3s;
+}
+
+.box-users,.box-fleet,.box-inventory,.box-providers{
+  width: 22%;
+  height: 60px;
+  float: left;
+}
+
+.box-users{
+  background: #D75A4A url('../image/icon/other/users.gif') no-repeat center right;
+}
+
+.box-fleet{
+  background: #F18430 url('../image/icon/other/fleet.gif') no-repeat center right;
+}
+
+.box-inventory{
+  background: #7EB36A url('../image/icon/other/inventory.gif') no-repeat center right;
+}
+
+.box-providers{
+  background: #447D9B url('../image/icon/other/provider.gif') no-repeat center right;
+}
+
+.btn-options{
+  width: 30px;
+  height: 30px;
+  background-size: 12px;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.option-view{
+  background-image: url('../image/icon/white/view.png');
+}
+.option-view:hover{
+  background-color: #447D9B;
+}
+
+.option-edit{
+  background-image: url('../image/icon/white/edit.png');
+}
+.option-edit:hover{
+  background-color: #F18430;
+}
+
+.option-delete{
+  background-image: url('../image/icon/white/delete.png');
+}
+.option-delete:hover{
+  background-color: #D75A4A;
+}
+
+.option-insert{
+  background-image: url('../image/icon/white/insert.png');
+}
+.option-insert:hover{
+  background-color: #00B259;
+}

@@ -1,0 +1,205 @@
+/* ARQUIVO CSS DE GERENCIAMENTO DE IMAGENS */
+/* background do sistema */
+.body-login{
+  /* background-image: url('../image/background.jpg'); */
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+/* formatação padrão para todos os ícones (login e forms)*/
+.bc-ico{
+  background-position: 2% 50%;
+  background-repeat: no-repeat;
+  background-size: 5%;
+  text-indent: 35px;
+}
+
+/* formatação padrão para todos os ícones (menus)*/
+.bc-ico-sys{
+  background-position: 7px 7px;
+  background-repeat: no-repeat;
+  background-size: 17px;
+}
+
+/* ICONES ADVERSOS */
+/* icone administrativo */
+.ico-gear-sys{
+  background-image: url('../image/icon/other/icon-adm.gif');
+}
+/* icone financeiro */
+.ico-fin-sys{
+  background-image: url('../image/icon/other/icon-finance.gif');
+}
+/* icone contábil */
+.ico-acc-sys{
+  background-image: url('../image/icon/other/icon-accounting.gif');
+}
+/* icone juridico */
+.ico-jur-sys{
+  background-image: url('../image/icon/other/icon-legal.gif');
+}
+/* icone sair */
+.ico-log-sys{
+  background-image: url('../image/icon/other/icon-logoff.gif');
+}
+
+/* ICONES BRANCOS */
+/* icone profile */
+.ico-profile-wt{
+  background-image: url('../image/icon/white/profile.png');
+}
+/* icone accept */
+.ico-accept-wt{
+  background-image: url('../image/icon/white/accept.png');
+}
+/* icone alert */
+.ico-alert-wt{
+  background-image: url('../image/icon/white/alert.png');
+}
+/* icone attachment */
+.ico-attachment-wt{
+  background-image: url('../image/icon/white/attachment.png');
+}
+/* icone cancel */
+.ico-cancel-wt{
+  background-image: url('../image/icon/white/cancel.png');
+}
+/* icone delete */
+.ico-delete-wt{
+  background-image: url('../image/icon/white/delete.png');
+}
+/* icone edit */
+.ico-edit-wt{
+  background-image: url('../image/icon/white/edit.png');
+}
+/* icone file */
+.ico-file-wt{
+  background-image: url('../image/icon/white/file.png');
+}
+/* icone image */
+.ico-image-wt{
+  background-image: url('../image/icon/white/image.png');
+}
+/* icone information */
+.ico-information-wt{
+  background-image: url('../image/icon/white/information.png');
+}
+/* icone lock */
+.ico-lock-wt{
+  background-image: url('../image/icon/white/lock.png');
+}
+/* icone unlock */
+.ico-unlock-wt{
+  background-image: url('../image/icon/white/unlock.png');
+}
+/* icone logoff */
+.ico-logoff-wt{
+  background-image: url('../image/icon/white/logoff.png');
+}
+/* icone password */
+.ico-password-wt{
+  background-image: url('../image/icon/white/password.png');
+}
+/* icone print */
+.ico-print-wt{
+  background-image: url('../image/icon/white/print.png');
+}
+/* icone report */
+.ico-report-wt{
+  background-image: url('../image/icon/white/report.png');
+}
+/* icone save */
+.ico-save-wt{
+  background-image: url('../image/icon/white/save.png');
+}
+/* icone upload */
+.ico-upload-wt{
+  background-image: url('../image/icon/white/upload.png');
+}
+/* icone view */
+.ico-view-wt{
+  background-image: url('../image/icon/white/view.png');
+}
+/* icone view */
+.ico-insert-wt{
+  background-image: url('../image/icon/white/insert.png');
+}
+
+
+/* ICONES CINZAS */
+/* icone profile */
+.ico-profile-gr{
+  background-image: url('../image/icon/gray/profile.png');
+}
+/* icone accept */
+.ico-accept-gr{
+  background-image: url('../image/icon/gray/accept.png');
+}
+/* icone alert */
+.ico-alert-gr{
+  background-image: url('../image/icon/gray/alert.png');
+}
+/* icone attachment */
+.ico-attachment-gr{
+  background-image: url('../image/icon/gray/attachment.png');
+}
+/* icone cancel */
+.ico-cancel-gr{
+  background-image: url('../image/icon/gray/cancel.png');
+}
+/* icone delete */
+.ico-delete-gr{
+  background-image: url('../image/icon/gray/delete.png');
+}
+/* icone edit */
+.ico-edit-gr{
+  background-image: url('../image/icon/gray/edit.png');
+}
+/* icone file */
+.ico-file-gr{
+  background-image: url('../image/icon/gray/file.png');
+}
+/* icone image */
+.ico-image-gr{
+  background-image: url('../image/icon/gray/image.png');
+}
+/* icone information */
+.ico-information-gr{
+  background-image: url('../image/icon/gray/information.png');
+}
+/* icone lock */
+.ico-lock-gr{
+  background-image: url('../image/icon/gray/lock.png');
+}
+/* icone unlock */
+.ico-unlock-gr{
+  background-image: url('../image/icon/gray/unlock.png');
+}
+/* icone logoff */
+.ico-logoff-gr{
+  background-image: url('../image/icon/gray/logoff.png');
+}
+/* icone password */
+.ico-password-gr{
+  background-image: url('../image/icon/gray/password.png');
+}
+/* icone print */
+.ico-print-gr{
+  background-image: url('../image/icon/gray/print.png');
+}
+/* icone report */
+.ico-report-gr{
+  background-image: url('../image/icon/gray/report.png');
+}
+/* icone save */
+.ico-save-gr{
+  background-image: url('../image/icon/gray/save.png');
+}
+/* icone upload */
+.ico-upload-gr{
+  background-image: url('../image/icon/gray/upload.png');
+}
+/* icone view */
+.ico-view-gr{
+  background-image: url('../image/icon/gray/view.png');
+}

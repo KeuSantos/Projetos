@@ -1,0 +1,257 @@
+/* ARQUIVO CSS DE GERENCIAMENTO DE CORES */
+/* LEGENDA
+bd: border
+ep: vazio (empty)
+up: cima
+dn: down
+lf: left
+rt: right
+ft: font
+ph: placeholder
+bc: background
+wt: white (branco)
+bl: black (preto)
+ge: grey (cinza)
+sb: subtitulo
+ */
+
+
+/* fundo sem cor */
+.bc-ep{
+  background: none;
+}
+
+/* fundo do Sistema */
+body{
+  background-color: #1F253F;
+}
+
+/* COR BRANCA */
+/* borda */
+.bd-up-wt{
+  border-top-color: #FFF;
+}
+.bd-dn-wt{
+  border-bottom-color: #FFF;
+}
+.bd-lf-wt{
+  border-left-color: #FFF;
+}
+.bd-rt-wt{
+  border-right-color: #FFF;
+}
+/* fonte */
+.ft-wt{
+  color: #FFF;
+}
+/* placeholder */
+.ph-wt::input-placeholder{
+  color: rgba(255,255,255,0.3);
+  font-style: italic;
+}
+.ph-wt::-o-input-placeholder{
+  color: rgba(255,255,255,0.3);
+  font-style: italic;
+}
+.ph-wt::-ms-input-placeholder{
+  color: rgba(255,255,255,0.3);
+  font-style: italic;
+}
+.ph-wt::-moz-placeholder{
+  color: rgba(255,255,255,0.3);
+  font-style: italic;
+}
+.ph-wt::-webkit-input-placeholder{
+  color: rgba(255,255,255,0.3);
+  font-style: italic;
+}
+/* fundo */
+.bc-wt{
+  background-color: #FFF;
+}
+
+/* COR PRETA */
+/* borda */
+.bd-up-bl{
+  border-top-color: #000;
+}
+.bd-dn-bl{
+  border-bottom-color: #000;
+}
+.bd-lf-bl{
+  border-left-color: #000;
+}
+.bd-rt-bl{
+  border-right-color: #000;
+}
+/* fonte */
+.ft-bl{
+  color: #000;
+}
+/* placeholder */
+.ph-bl::input-placeholder{
+  color: #000;
+  font-style: italic;
+}
+.ph-bl::-o-input-placeholder{
+  color: #000;
+  font-style: italic;
+}
+.ph-bl::-ms-input-placeholder{
+  color: #000;
+  font-style: italic;
+}
+.ph-bl::-moz-placeholder{
+  color: #000;
+  font-style: italic;
+}
+.ph-bl::-webkit-input-placeholder{
+  color: #000;
+  font-style: italic;
+}
+/* fundo */
+.bc-bl{
+  background-color: #000;
+}
+
+/* fonte cinza */
+.ft-ge{
+  color: #333;
+}
+
+/* cor subtitulos */
+.ft-sb{
+  color: #767F9E;
+}
+
+/* fundos de formulários (alpha) */
+/* Branco */
+.fm-wt{
+  background-color: rgba(255,255,255,0.1);
+}
+
+/* cores adversas */
+/* linha default do menu */
+.ico-gear-sys,.ico-fin-sys,.ico-acc-sys,.ico-jur-sys,.ico-log-sys{
+  border-bottom: 2px solid #262E4F;
+}
+/* linha ao passar o mouse no menu */
+.ico-gear-sys:hover,.ico-fin-sys:hover,.ico-acc-sys:hover,.ico-jur-sys:hover,.ico-log-sys:hover{
+  border-bottom: 2px solid #7EB36A;
+}
+
+/* fundos de boxs e menus */
+/* fundo claro */
+.bc-bx-cl{
+  background-color: #50597B;
+}
+/* fundo intermediário */
+.bc-bx-me{
+  background-color: #394264;
+}
+/* fundo escuro */
+.bc-bx-es{
+  background-color: #262E4F;
+}
+
+/* COR VERMELHA */
+/* borda */
+.bd-up-re{
+  border-top-color: #D75A4A;
+}
+.bd-dn-re{
+  border-bottom-color: #D75A4A;
+}
+.bd-lf-re{
+  border-left-color: #D75A4A;
+}
+.bd-rt-re{
+  border-right-color: #D75A4A;
+}
+/* fonte vermelha */
+.ft-re{
+  color: #FF0000;
+}
+
+/* COR VERDE */
+/* borda */
+.bd-up-gr{
+  border-top-color: #7EB36A;
+}
+.bd-dn-gr{
+  border-bottom-color: #7EB36A;
+}
+.bd-lf-gr{
+  border-left-color: #7EB36A;
+}
+.bd-rt-gr{
+  border-right-color: #7EB36A;
+}
+/* fonte verde */
+.ft-gr{
+  color: #7EB36A;
+}
+
+/* COR LARANJA */
+/* borda */
+.bd-up-or{
+  border-top-color: #F18430;
+}
+.bd-dn-or{
+  border-bottom-color: #F18430;
+}
+.bd-lf-or{
+  border-left-color: #F18430;
+}
+.bd-rt-or{
+  border-right-color: #F18430;
+}
+/* fonte laranja */
+.ft-or{
+  color: #F18430;
+}
+
+/* COR ESCURA SISTEMA */
+/* borda */
+.bd-up-es{
+  border-top-color: #262E4F;
+}
+.bd-dn-es{
+  border-bottom-color: #262E4F;
+}
+.bd-lf-es{
+  border-left-color: #262E4F;
+}
+.bd-rt-es{
+  border-right-color: #262E4F;
+}
+
+/* COR INTERMEDIÁRIA SISTEMA */
+/* borda */
+.bd-up-me{
+  border-top-color: #394264;
+}
+.bd-dn-me{
+  border-bottom-color: #394264;
+}
+.bd-lf-me{
+  border-left-color: #394264;
+}
+.bd-rt-me{
+  border-right-color: #394264;
+}
+
+/* COR AZUL */
+/* borda */
+.bd-up-bu{
+  border-top-color: #447D9B;
+}
+.bd-dn-bu{
+  border-bottom-color: #447D9B;
+}
+.bd-lf-bu{
+  border-left-color: #447D9B;
+}
+.bd-rt-bu{
+  border-right-color: #447D9B;
+}

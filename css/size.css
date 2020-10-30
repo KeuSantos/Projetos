@@ -1,0 +1,128 @@
+/* ARQUIVO CSS DE GERENCIAMENTO DE TAMANHOS */
+
+/* fontes */
+.ft-sz-mc{
+  font-size: 0.6em;
+}
+.ft-sz-df{
+  font-size: 0.8em;
+}
+.ft-sz-lt{
+  font-size: 1em;
+}
+.ft-sz-md{
+  font-size: 1.5em;
+}
+.ft-sz-bg{
+  font-size: 2em;
+}
+.ft-sz-lg{
+  font-size: 2.5em;
+}
+
+/* boxs largura */
+.bx-sz-l08{
+  width: 5%;
+}
+.bx-sz-l07{
+  width: 10%;
+}
+.bx-sz-l06{
+  width: 15%;
+}
+.bx-sz-l05{
+  width: 20%;
+}
+.bx-sz-l04{
+  width: 23.25%;
+}
+.bx-sz-l03{
+  width: 31.5%;
+}
+.bx-sz-l02{
+  width: 50%;
+}
+.bx-sz-l01{
+  width: 100%;
+}
+
+/* boxs altura */
+.bx-sz-a05{
+  height: 10px;
+}
+.bx-sz-a04{
+  height: 15px;
+}
+.bx-sz-a03{
+  height: 20px;
+}
+.bx-sz-a02{
+  height: 25px;
+}
+.bx-sz-a01{
+  height: 30px;
+}
+
+/* imagens */
+.img-sz-08{
+  background-size: 5%;
+}
+.img-sz-07{
+  background-size: 10%;
+}
+.img-sz-06{
+  background-size: 15%;
+}
+.img-sz-05{
+  background-size: 20%;
+}
+.img-sz-04{
+  background-size: 25%;
+}
+.img-sz-03{
+  background-size: 33%;
+}
+.img-sz-02{
+  background-size: 50%;
+}
+.img-sz-01{
+  background-size: 100%;
+}
+
+/* borda (valor)*/
+.bd-sz-up-lt{
+  border-top-width: 1px;
+}
+.bd-sz-up-md{
+  border-top-width: 2px;
+}
+.bd-sz-up-bg{
+  border-top-width: 3px;
+}
+.bd-sz-dn-lt{
+  border-bottom-width: 1px;
+}
+.bd-sz-dn-md{
+  border-bottom-width: 2px;
+}
+.bd-sz-dn-bg{
+  border-bottom-width: 3px;
+}
+.bd-sz-lf-lt{
+  border-left-width: 1px;
+}
+.bd-sz-lf-md{
+  border-left-width: 2px;
+}
+.bd-sz-lf-bg{
+  border-left-width: 3px;
+}
+.bd-sz-rt-lt{
+  border-right-width: 1px;
+}
+.bd-sz-rt-md{
+  border-right-width: 2px;
+}
+.bd-sz-rt-bg{
+  border-right-width: 3px;
+}
